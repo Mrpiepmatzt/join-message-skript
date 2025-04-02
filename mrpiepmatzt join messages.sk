@@ -1,0 +1,19 @@
+#[mrpiepmatzt join messages]
+
+
+every 10 minutes:
+    send_discord_message()
+
+command /automessage:
+    trigger:
+        send_discord_message()
+
+function send_discord_message():
+    broadcast ""
+    broadcast "&9&l                         "
+    broadcast "&x&0&0&A&4&F&Fᴊᴏɪɴ ᴛʜᴇ &x&F&F&F&F&F&F example name &x&0&0&A&4&F&Fᴄᴏᴍᴍᴜɴɪᴛʏ!"
+    broadcast ""
+    broadcast "&x&0&0&A&4&F&F• &x&F&F&F&F&F&Fdiscord.gg/link"
+
+    broadcast "&9&l                         "
+    broadcast ""
